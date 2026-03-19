@@ -2,7 +2,7 @@
 
 ## Project
 One-page landing for psychological film lecture series.
-URL: https://sgrodnik.github.io/kinolektoriy/
+URL: https://iragrodnik.github.io/kinolektoriy/
 Stack: React + Vite + Tailwind CSS v4 + lucide-react
 
 ## Sections
@@ -11,7 +11,7 @@ Stack: React + Vite + Tailwind CSS v4 + lucide-react
 3. About — format description, 4 benefit bullets
 4. Schedule — 2 days, 3 slots each (speaker + film)
 5. Speakers — 6 cards (photo, credentials, contacts, film description)
-6. Pricing — 1000/2 days, 1500/2 days + CTA
+6. Pricing — 1000/1 day, 1500/2 days + CTA
 7. Footer — organizers, offer contract link
 
 ## Status
@@ -19,18 +19,18 @@ Stack: React + Vite + Tailwind CSS v4 + lucide-react
 - [x] All sections built
 - [x] Fonts: Lora + Inter
 - [x] Colors: stone + rose palette
-- [x] Dark theme (data-theme="dark")
-- [x] 10 accent color themes (ThemeSwitcher)
+- [x] Dark theme — auto-detect from prefers-color-scheme, manual override via 🌙/☀️ button
+- [x] 20 accent color themes, randomly chosen on each page load
+- [x] filmDescription rendered as array of paragraphs
 - [x] Speaker data: Obolenskaya (full), Murtich (full)
 - [x] Speaker photos: Obol.jpg, Mur.jpg
 - [x] GitHub Actions deploy workflow
 - [ ] Speaker data: Demir, Nekrasova, Traulko, Zotov
 - [ ] Speaker photos: 4 remaining
 - [ ] OG image (public/og-image.jpg, 1200x630)
-- [ ] Final accent color decision
 - [ ] Connect repo sgrodnik/kinolektoriy + push
 
 ## Key Notes
 - base: /kinolektoriy/ in vite.config.js
 - Photos: public/images/, ref as photoFile in speakers.js
-- ThemeSwitcher always rendered (client preview tool)
+- ThemeSwitcher: single floating button, always rendered

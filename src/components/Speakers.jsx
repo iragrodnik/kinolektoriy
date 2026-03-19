@@ -67,6 +67,11 @@ export default function Speakers() {
                       {speaker.contacts.email}
                     </a>
                   )}
+                  {speaker.contacts.tgChannel && (
+                    <a href={speaker.contacts.tgChannel.url} target="_blank" rel="noopener noreferrer">
+                      {speaker.contacts.tgChannel.label}
+                    </a>
+                  )}
                 </div>
               )}
               {speaker.filmDescription && (
