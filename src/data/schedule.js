@@ -3,9 +3,9 @@ export const days = [
     date: '4 апреля 2026',
     gatherTime: '11:45',
     slots: [
-      { time: '12:00–12:50', speakerId: 1 },
+      { time: '12:00–12:50', speakerId: 3 },
       { time: '13:00–13:50', speakerId: 2 },
-      { time: '14:00–14:50', speakerId: 3 },
+      { time: '14:00–14:50', speakerId: 1 },
     ],
   },
   {
