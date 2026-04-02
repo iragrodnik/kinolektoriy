@@ -11,7 +11,7 @@ export default function Hero() {
         <p className="hero-meta">6 спикеров · 6 фильмов · 4–5 апреля 2026</p>
         <p className="hero-format">Онлайн · с 12:00 до 15:00</p>
         <a
-          href="https://forms.yandex.ru/u/66c9d3bec417f34d68d53bdb/"
+          href="https://forms.yandex.ru/u/699d95d795add577ffb9b9b5/"
           target="_blank"
           rel="noopener noreferrer"
           className="btn-primary"

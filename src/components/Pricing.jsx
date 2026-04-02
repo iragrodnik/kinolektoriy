@@ -19,7 +19,7 @@ export default function Pricing() {
         </div>
         <div className="pricing-cta">
           <a
-            href="https://forms.yandex.ru/u/66c9d3bec417f34d68d53bdb/"
+            href="https://forms.yandex.ru/u/699d95d795add577ffb9b9b5/"
             target="_blank"
             rel="noopener noreferrer"
             className="btn-primary"
